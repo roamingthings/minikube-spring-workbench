@@ -28,7 +28,7 @@ _This file is originally taken from https://github.com/rhuss/fmp-demo-random-gen
 * Show create Docker image
   * `docker images`
 * Run with docker
-  * `docker run -it -p 8181:8080 jax2017/random-generator`
+  * `docker run -it -p 8181:8080 roamingthings/random-generator`
   * `open http://$(minikube ip):8181/random`
 * Create deployment descriptors
   * `mvn fabric8:resource`
