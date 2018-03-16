@@ -21,7 +21,7 @@ _This file is originally taken from https://github.com/rhuss/fmp-demo-random-gen
 * Add f-m-p dependency (3.5-SNAPSHOT)
 * Start minikube
   * `minikube start`
-  * `minikube addon enable heapster`
+  * `minikube addons enable heapster`
   * `eval $(minikube docker-env)`
 * Build docker image
   * `mvn package fabric8:build`
